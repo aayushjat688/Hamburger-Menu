@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    background-color:  rgba(246, 240, 235, 1);
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+header{
+    background-color: white;
+  
+    
+}
+header div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 32px;
+
+}
+
+.logo img{
+    
+}
+ul{
+    display: flex;
+    gap: 60px;
+}
+ul li{
+    display: inline;
+}
+
+nav a{
+color: rgba(73, 33, 24, 1);
+    font-weight: 700;
+    font-size: 21px;
+        text-decoration-line: none;
+}
