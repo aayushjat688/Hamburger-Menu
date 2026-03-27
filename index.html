@@ -6,22 +6,47 @@
     <title>Document</title>
      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
+    <header id="top">
         <div class="logo">
             <img src="Images/foodie hamburger logo.svg" alt="">
-            <nav>
+            <nav class="displer">
                 <ul>
-                    <li><a href="/">Top Picks</a></li>
-                    <li><a href="/">Whopper</a></li>
-                    <li><a href="/">Stunner Menu</a></li>
-                    <li><a href="/">New Foodi Collection</a></li>
-                    <li> <a href="/">Deal of the Day.</a></li>
+                    
+                    <li class="liTwo"><a href="#top-picks">Top Picks</a><span class="cross">&times;</span></li>
+                    <li><a href="#whopper">Whopper</a></li>
+                    <li><a href="#stunner-menu">Stunner Menu</a></li>
+                    <li><a href="#new">New Foodi Collection</a></li>
+                    <li> <a href="#deal">Deal of the Day.</a></li>
                 </ul>
             </nav>
+            <div class="ham-manu">^</div>
         </div>
     </header>
+    <main>
+        <section>
+            <div class="img-container">
+                <img class="groupImg" src="Images/Group 2.svg" alt="">
+            </div>
+             <p>Well, You can’t resist anymore!</p>
+            
+             <div class="all-images">
+                <h2 id="top-picks">Top Picks</h2>
+                <img src="Images/peter-dawn-sxZ_Ca6MkWM-unsplash 1.svg" alt="">
+                <h2 id="whopper">Whopper</h2>
+                <img src="Images/enggal-mukti-48F-Uvx9wvw-unsplash 2.svg" alt="">
+                <h2 id="stunner-menu">Stunner Menu</h2>
+                <img src="Images/jonathan-borba-8l8Yl2ruUsg-unsplash 1.svg" alt="">
+                <h2 id="new">New Foodie Collection</h2>
+                <img src="Images/john-fornander-VedLcUfLi74-unsplash 1.svg" alt="">
+                <h2 id="deal">Deal of the Day</h2>
+                <img src="Images/sk-CK6tjAIMJWM-unsplash (1) 1.svg" alt="">
+             </div>
+        </section>
+    </main>
+    <a class="top"  href="#top">GO TO TOP </a>
+    <p>Made with  ❤️ by Aayush Jat</p>
 </body>
 </html>
